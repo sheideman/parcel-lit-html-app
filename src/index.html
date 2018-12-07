@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+  <head>
+    <script src="../node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
+    <script type="module" src="./mint-app.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      body {
+        display: grid;
+        grid-template-rows:1fr;
+	grid-template-columns: 1fr;
+        margin: 0;
+        box-sizing:border-box;
+        width:100vw;
+        height:100vh;
+      }
+    </style>
+  </head>
+  <body>
+      <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBtTt15qs5W_szUQq1gzIL2ZVms4Tbo6D0&libraries=places">
+      </script>
+
+      <script async defer src="https://polyfill.io/v2/polyfill.min.js?features=IntersectionObserver,WebAnimations"></script>
+    <mint-app></mint-app>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  </body>
+</html>

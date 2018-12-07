@@ -1,0 +1,34 @@
+{
+  "name": "lit-html-parcel-chat-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "parcel build src/index.html",
+    "start": "parcel src/index.html",
+    "dev": "parcel watch src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-polyfill": "^6.26.0",
+    "parcel-bundler": "^1.10.3"
+  },
+  "browserslist": [
+    "last 1 chrome versions"
+  ],
+  "dependencies": {
+    "@polymer/iron-collapse": "^3.0.1",
+    "@polymer/iron-pages": "^3.0.1",
+    "@polymer/lit-element": "^0.6.4",
+    "@polymer/paper-dialog": "^3.0.1",
+    "@vaadin/router": "^1.2.0",
+    "@webcomponents/webcomponentsjs": "^2.2.1",
+    "dotenv": "^6.2.0",
+    "lit-html": "^0.14.0",
+    "xstate": "^4.2.0"
+  }
+}
